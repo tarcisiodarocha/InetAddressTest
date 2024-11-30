@@ -12,7 +12,7 @@ public class App
     {
         try{
             
-            String name = "github.com";
+            String name = "ufs.br";
             InetAddress address = InetAddress.getByName(name); 
             System.out.println( "Name:      "+ name);
             System.out.println( "Address:   "+ address.getHostAddress());
