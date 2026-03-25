@@ -12,7 +12,7 @@ public class App
     {
         try{
             
-            String name = "sigaa.ufs.br";
+            String name = "youtube.com.br";
             InetAddress address = InetAddress.getByName(name); 
             System.out.println( "Name:      "+ name);
             System.out.println( "Address:   "+ address.getHostAddress());
