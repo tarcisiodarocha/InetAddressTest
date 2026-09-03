@@ -12,7 +12,7 @@ public class App
     {
         try{
             
-            String name = "google.com.br";
+            String name = "ufs.br";
             InetAddress address[] = InetAddress.getAllByName(name); 
             System.out.println( "Name:      "+ name);
             for (InetAddress adr : address){
